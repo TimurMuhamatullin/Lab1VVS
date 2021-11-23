@@ -19,3 +19,13 @@ C:\Users\Тимур\Desktop\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.csproj.Generat
 C:\Users\Тимур\Desktop\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
 C:\Users\Тимур\Desktop\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.exe
 C:\Users\Тимур\Desktop\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.pdb
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\bin\Debug\Lab1.exe.config
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\bin\Debug\Lab1.exe
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\bin\Debug\Lab1.pdb
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.csproj.AssemblyReference.cache
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.Form1.resources
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.exe
+C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.pdb
