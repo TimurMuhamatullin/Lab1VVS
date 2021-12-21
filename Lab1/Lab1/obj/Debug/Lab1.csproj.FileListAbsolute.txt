@@ -29,3 +29,13 @@ C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateRe
 C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
 C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.exe
 C:\Users\Дима\Desktop\git\Lab1VVS\Lab1\Lab1\obj\Debug\Lab1.pdb
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.Form1.resources
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.csproj.GenerateResource.cache
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.csproj.CoreCompileInputs.cache
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.exe
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\obj\Debug\Lab1.pdb
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\bin\Debug\Lab1.exe.config
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\bin\Debug\Lab1.exe
+D:\Универ\Введение в специальность\ЛР1\Lab1VVS-main\Lab1\Lab1\bin\Debug\Lab1.pdb

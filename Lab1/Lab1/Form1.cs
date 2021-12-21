@@ -62,5 +62,61 @@ namespace Lab1
                 textBox4.Text = "Корреляционная зависимость не прослеживается";
             }
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double Xn, Xv;
+            double[] r1 = new double[] { 0.006, 0.040, 0.185, 0.43, 0.75, 1.13, 1.56, 2.03, 2.53, 3.06, 3.6, 4.2, 4.8, 5.4, 6.0, 6.6, 7.3, 7.9, 8.6, 9.2 };
+            double[] r2 = new double[] { 2.7, 4.6, 6.3, 7.8, 9.2, 10.6, 12.0, 13.4, 14.7, 16.0, 17.3, 18.5 };
+            double N = Convert.ToDouble(textBox1.Text);
+            //string[] y = (from object item in textBox3.Text select item.ToString()).ToArray<string>();
+            string[] y = textBox3.Text.Split('\n');
+            double m = Convert.ToDouble(textBox6.Text);
+            double[] s = new double[Convert.ToInt32(m)];
+            double xj, xj1, l;
+            for (int i = 0; i < m; i++)
+            {
+                s[i] = 0;
+            }
+            for (int i = 0; i < N - 1; i++)
+            {
+                xj = 0;
+                for (int j = 0; i < m; i++)
+                {
+                    if (Convert.ToDouble(y[i]) >= xj & Convert.ToDouble(y[i]) <= xj + 1 / m)
+                    {
+                        s[j] = s[j] + 1;
+                    }
+                    xj = xj + 1 / m;
+                }
+            }
+            double Y = 0;
+            xj = 1 / m;
+            xj1 = 0;
+            for (int i = 0; i < m; i++)
+            {
+                Console.WriteLine(xj);
+                l = (xj - xj1) * N;
+                Y = Y + (Math.Pow(s[i] - l, 2) / l);
+                xj1 = xj;
+                xj = xj + 1 / m;
+                l = 0;
+            }
+            Xn = r1[Convert.ToInt32(m) - 1 - 1];
+            Xv = r2[Convert.ToInt32(m) - 1 - 1];
+            if (Y >= Xn & Y <= Xv)
+            {
+                textBox5.Text = "X Пирсона =" + Convert.ToString(Y) + (char)13 + (char)10 + "Нижняя граница доверительного интервала " + Convert.ToString(Xn) + (char)13 + (char)10 + "Верхняя граница доверительного интервала" + Convert.ToString(Xv) + (char)13 + (char)10 + "Гипотеза о равномерном законе распределения СВ не отвергается";
+            }
+            else
+            {
+                textBox5.Text = "X Пирсона =" + Convert.ToString(Y) + (char)13 + (char)10 + "Нижняя граница доверительного интервала " + Convert.ToString(Xn) + (char)13 + (char)10 + "Верхняя граница доверительного интервала" + Convert.ToString(Xv) + (char)13 + (char)10 + "Гипотеза о равномерном законе распределения СВ отвергается";
+            }
+        }
     }
 }
