@@ -42,7 +42,7 @@ namespace Lab1
         private void button2_Click(object sender, EventArgs e)
         {
             double sum1 = 0, sum2 = 0, sum3 = 0, z, ro_kol, ro_max, p;
-            int n = 10;
+            double n = Convert.ToDouble(textBox1.Text);
             z = 1.64;
             for (int i = 0; i < n; i++)
             {
@@ -50,16 +50,16 @@ namespace Lab1
                 sum2 = sum2 + (epsArray[i] * ((n + 1) / 2));
                 sum3 = sum3 + epsArray[i];
             }
-            p = (n ^ 2 - 1) / 12;
-            ro_kol = (((1 / n) * sum1) - ((1 / n) * sum2)) / Math.Sqrt((((1 / n) * sum3) - (Math.Pow(((1 / n) * sum3), 2)) * p));
+            p = (Math.Pow(n, 2) - 1) / 12;
+            ro_kol = (((1 / n) * sum1) - ((1 / n) * sum2)) / Math.Sqrt((((1 / n) * sum3) - Math.Pow(((1 / n) * sum3), 2)) * p);
             ro_max = z * ((1 - Math.Pow(ro_kol, 2)) / Math.Sqrt(n));
             if (ro_kol > ro_max)
             {
-                textBox4.Text = "Существует корреляционная зависимость";
+                textBox4.Text = "Коэффициент корреляции: " + Convert.ToString(ro_kol) + "\nВерхняя граница: " + Convert.ToString(ro_max) + "\nСуществует корреляционная зависимость";
             }
             else
             {
-                textBox4.Text = "Корреляционная зависимость не прослеживается";
+                textBox4.Text = "Коэффициент корреляции: " + Convert.ToString(ro_kol) + "\nВерхняя граница: " + Convert.ToString(ro_max) + "\nКорреляционная зависимость не прослеживается";
             }
         }
 
